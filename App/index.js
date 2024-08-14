@@ -29,7 +29,7 @@ const App = () => {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollViewContent}>
-        <Text style={styles.title}>Market</Text>
+        <Text style={styles.title}>Joe's Marketplace</Text>
         <FlatList
           data={items}
           renderItem={renderItem}
